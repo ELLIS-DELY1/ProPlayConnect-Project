@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProPlayConnect - Athlete Registration</title>
+    <link rel="stylesheet" href="../CSS-Files/day5.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="ProPlayConnect Logo" class="logo">
+        <h1>ProPlayConnect Athlete Registration</h1>
+    </header>
+
+    <section class="form-container">
+        <h2 style="color:#6a0dad;">Join the ProPlayConnect Community</h2>
+        <p>Fill out the form below to register as an athlete.</p>
+
+        <form action="#" method="POST">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="sport">Preferred Sport:</label>
+            <select id="sport" name="sport" required>
+                <option value="">Select a sport</option>
+                <option value="Football">Football</option>
+                <option value="Basketball">Basketball</option>
+                <option value="American Football">American Football</option>
+                <option value="Boxing">Boxing</option>
+                <option value="Martial Arts">Martial Arts</option>
+            </select>
+
+            <label for="bio">Athlete Bio:</label>
+            <textarea id="bio" name="bio" placeholder="Tell us about yourself..." rows="4"></textarea>
+
+            <button type="submit">Register Now</button>
+        </form>
+    </section>
+</body>
+</html>
