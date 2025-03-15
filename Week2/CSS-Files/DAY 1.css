@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+/* DAY THREE MEDIA QUERIES */
+@media(max-width:600px){
+    .container{
+        flex-direction:column ;
+    }
+}

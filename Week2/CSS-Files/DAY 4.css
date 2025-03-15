@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    height: 60vh;
+    background-color: antiquewhite;
+
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+/* DAY THREE MEDIA QUERIES */
+@media(max-width:600px){
+    .container{
+        flex-direction:column ;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.grid-item {
+    background-color: teal;
+    padding:20px;
+    text-align: center;
+}
+.button{
+    background-color: orange;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    }
+    .button:hover{
+        background-color: red;
+    }
