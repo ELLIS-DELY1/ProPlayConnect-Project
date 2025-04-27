@@ -1,0 +1,9 @@
+Day 3 – React Environment Setup (Vite)
+--------------------------------------
+- Used `npm create vite@latest` to start a new project
+- Selected React + JavaScript
+- Named the project "proplayconnect"
+- Installed dependencies using `npm install`
+- Ran the dev server with `npm run dev`
+- Opened the project on http://localhost:5173/
+- Verified everything works correctly
